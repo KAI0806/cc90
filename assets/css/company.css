@@ -1,0 +1,43 @@
+body {
+  background: #2692f6; }
+
+.section01 {
+  line-height: 1.769; }
+  @media print, screen and (min-width: 769px) {
+    .section01 {
+      line-height: 2.1; } }
+  .section01 p:not(:first-child) {
+    margin-top: 1.5em; }
+  .section01 .company__item-logo {
+    margin-top: 10px;
+    width: 161px;
+    height: auto; }
+    @media print, screen and (min-width: 769px) {
+      .section01 .company__item-logo {
+        width: 231px; } }
+  .section01 dl:not(:first-child) {
+    margin-top: 1.5em; }
+  .section01 dt {
+    font-weight: 700; }
+  .section01 td a {
+    color: #47a7ff;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative; }
+  .section01 .ic-blank {
+    padding-right: 25px; }
+  .section01 .ic-blank img {
+    margin-left: 10px;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    width: 14px; }
+    @media print, screen and (min-width: 769px) {
+      .section01 .ic-blank img {
+        width: 17px; } }

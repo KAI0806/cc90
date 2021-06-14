@@ -1,0 +1,12 @@
+body {
+  background: #2692f6; }
+
+.section01 {
+  line-height: 1.769; }
+  @media print, screen and (min-width: 769px) {
+    .section01 {
+      line-height: 2.1; } }
+  .section01 p:not(:first-child) {
+    margin-top: 1.5em; }
+  .section01 p {
+    text-align: justify; }
