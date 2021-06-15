@@ -3670,13 +3670,13 @@ TOP
 .web_sample .tag{
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 75%;
     margin: auto auto 50px;
 }
 
 .web_sample .tag div{
     background-color: #9dd4fc;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5px;
     border: 1px solid black;
 }
