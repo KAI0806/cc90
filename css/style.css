@@ -3642,8 +3642,8 @@ TOP
 
 .service_area .service_left::after{
     content: '';
-    height: 40px;
-    width: 101px;
+    height: 30px;
+    width: 100px;
     background: url('../images/ex_office.svg') no-repeat center center/cover;
     position: absolute;
     bottom: 0;
