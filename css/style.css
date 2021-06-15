@@ -3701,7 +3701,7 @@ TOP
 	bottom: 0;
 	right: 0;
     box-shadow: -3px -3px 3px #9b9b9b;
-    border-top: 10px solid #ff5b0c;
+    border-top: 10px solid #ff8d2c;
     z-index: 1000;
     opacity: 0;
     transition: all 0.65s;
@@ -3727,7 +3727,7 @@ TOP
 	top: 1px;
 	left: 3px;
 	font-size: 15px;
-    background: #ff5b0c;
+    background: #ff8d2c;
     color: white;
     padding: 1px 5px;
     text-align: center;
@@ -3765,7 +3765,7 @@ TOP
 }
 
 .pop-up_link{
-    background: #ff5b0c;
+    background: #ff8d2c;
     padding: 5px 10px;
     font-size: 10px;
     border-radius: 20px;
@@ -3809,7 +3809,7 @@ TOP
     content: "導入後";
     font-size: 40px;
     font-weight: 100;
-    color: #ff5b0c;
+    color: #ff8d2c;
     width: 150px;
     height: 10px;
     top: 10%;
