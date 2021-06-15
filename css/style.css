@@ -3637,10 +3637,32 @@ TOP
 
 .service_area .service_left{
     border: 3px solid #9dd4fc;
+    position: relative;
+}
+
+.service_area .service_left::after{
+    content: '';
+    height: 40px;
+    width: 101px;
+    background: url('../images/ex_office.svg') no-repeat center center/cover;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
 }
 
 .service_right{
     border: 3px solid #ff8d2c;
+    position: relative;
+}
+
+.service_area .service_right::after{
+    content: '';
+    height: 40px;
+    width: 110px;
+    background: url('../images/ex_create.svg') no-repeat center center/cover;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
 }
 
 .service_area .service_left strong{
