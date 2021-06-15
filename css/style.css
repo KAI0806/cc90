@@ -3796,11 +3796,38 @@ TOP
 
 .slider {
     display: flex;
+}
+
+.slider1, .slider2{
+    display: flex;
     min-width: 150%;
     width: min-content;
-    animation: sliderAnimation 60s linear infinite;
     margin-bottom: 100px;
 }
+
+@keyframes loop {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes loop2 {
+    0% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+  .slider1 {
+    animation: loop 240s -120s linear infinite;
+  }
+  
+  .slider2 {
+    animation: loop2 240s linear infinite;
+  }
 
 .slide img{
     width: 80%;
@@ -3837,17 +3864,6 @@ TOP
     top: 10%;
     left: -15%;
 }
-
-
-@keyframes sliderAnimation {
-    0%{
-        transform: translate3d(0, 0, 0);
-      }
-      100%{
-        transform: translate3d(-50%, 0, 0);
-      }
-  }
-
 
 @media screen and (max-width:767px){
     .header_right ul{
