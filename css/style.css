@@ -1577,7 +1577,7 @@ TOP
 }
 
 .top section.l-service .l-service-list.l-service-list__right .c-serivce-img {
-    right: calc(60% + 76px);
+    right: calc(45% + 76px);
     z-index: 9;
 }
 
