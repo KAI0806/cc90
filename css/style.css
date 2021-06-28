@@ -1690,6 +1690,7 @@ TOP
     text-align: center;
     letter-spacing: .08em;
     margin-bottom: 18px;
+    margin-top: 50px;
 }
 
 .top section.l-price .l-section-inner .c-price__text h3 {
@@ -3144,9 +3145,9 @@ TOP
         margin-bottom: 3vh;
         font-weight: 400;
     }
-    .top section.l-price .l-section-inner .c-price__text img {
+    /* .top section.l-price .l-section-inner .c-price__text img {
         transform: scale(1.2)!important;
-    }
+    } */
 }
 
 @media screen and (min-width:414px) and (max-width:499px) {
