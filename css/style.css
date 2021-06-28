@@ -3839,6 +3839,10 @@ TOP
  display: none;       
 }
 
+.pc_only{
+    display: block;
+}
+
 .ex_left, .ex_right{
     position: relative;
 }
@@ -4001,6 +4005,10 @@ TOP
     .sp_only{
         display: block;       
        }
+
+    .pc_only{
+        display: none;
+    }
 
     .ex_left::before{
         font-size: 25px;
