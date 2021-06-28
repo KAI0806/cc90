@@ -3753,10 +3753,12 @@ TOP
 	font-size: 15px;
     background: #ff8d2c;
     color: white;
-    padding: 1px 5px;
     text-align: center;
     box-shadow: 3px 3px 10px #9b9b9b;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pop_wrap{
@@ -3840,7 +3842,7 @@ TOP
 }
 
 .pc_only{
-    display: block;
+    display: inline;
 }
 
 .ex_left, .ex_right{
@@ -3979,7 +3981,8 @@ TOP
 
     .close{
         font-size: 5px;
-        padding: 2.5px 2.5px;
+        width: 18px;
+        height: 18px;
         top: 5px;
         left: 5px;
     }
