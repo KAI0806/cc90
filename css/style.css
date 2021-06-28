@@ -3867,6 +3867,15 @@ TOP
     left: -15%;
 }
 
+.line-icon{
+    margin-left: 43px;
+    margin-top: 8px;
+}
+
+.lm{
+    margin-left: 48px;
+}
+
 @media screen and (max-width:767px){
     .header_right ul{
         display: none;
@@ -3928,7 +3937,7 @@ TOP
     }
 
     .slider{
-        margin-bottom: 25px;
+        margin-bottom: -80px;
         min-width: 300%;
     }
 
@@ -4000,9 +4009,19 @@ TOP
     .ex_right::before{
         font-size: 25px;
     }
+
+    .line-icon{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .lm{
+        margin-left: 0;
+    }
        
 }
 
 .fb-share-button:hover{
     opacity: .9;
 }
+
