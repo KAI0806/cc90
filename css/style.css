@@ -4002,3 +4002,7 @@ TOP
     }
        
 }
+
+.fb-share-button:hover{
+    opacity: .9;
+}
