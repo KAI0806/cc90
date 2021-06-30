@@ -2939,7 +2939,7 @@ TOP
     }
     .top section.l-service .l-section-inner .flex-col_2 .flex-col-box:nth-of-type(2) img {
         margin-top: -95px;
-        width: 57.6%;
+        width: 69%;
     }
     .top section.l-service .l-section-inner .flex-col_2 .flex-col-box:nth-of-type(3) img {
         margin-top: -91px;
@@ -3058,7 +3058,7 @@ TOP
 
 @media screen and (max-width:480px) {
     .top section.l-issue {
-        padding-top: 0px;
+        padding-top: 50px;
         margin-bottom: -20px;
     }
     .top .mainvisual a.c-btn-contact {
