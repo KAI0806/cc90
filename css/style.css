@@ -3058,7 +3058,7 @@ TOP
 
 @media screen and (max-width:480px) {
     .top section.l-issue {
-        padding-top: 50px;
+        padding-top: 0px;
         margin-bottom: -20px;
     }
     .top .mainvisual a.c-btn-contact {
