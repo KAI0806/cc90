@@ -2819,7 +2819,7 @@ TOP
         display: none;
     }
     .top .mainvisual a.c-btn-contact {
-        margin: -65px auto 0;
+        margin:auto;
         font-size: 14px;
     }
     .top .mainvisual p.c-scroll {
@@ -2836,6 +2836,7 @@ TOP
     .top .mainvisual .l-kv img {
         opacity: 0;
         display: block;
+        width: 100%;
     }
     .top section {
         padding: 62px 0 60px;
@@ -3065,7 +3066,7 @@ TOP
         margin-bottom: -20px;
     }
     .top .mainvisual a.c-btn-contact {
-        margin: -280px auto 0;
+        margin: auto;
         font-size: 14px;
     }
     /* .top .mainvisual {
@@ -3568,7 +3569,7 @@ TOP
     }
     .top .mainvisual {
         padding-top: 16px;
-        height: 550px!important;
+        /* height: 550px!important; */
     }
     .top section.l-contact h3 {
         font-size: 22px;
@@ -3745,6 +3746,7 @@ TOP
 
 #pop-up:checked + .window{
     opacity: 0;
+    display: none;
 }
 
 .text {
